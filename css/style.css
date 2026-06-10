@@ -1,0 +1,134 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:
+    "Amazon Ember",
+    Arial,
+    sans-serif;
+
+    background:#ffffff;
+}
+
+/* Amazon Store Navigation */
+
+.store-nav{
+
+    height:60px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+    padding:0 40px;
+
+    border-bottom:1px solid #e7e7e7;
+
+    background:#fff;
+
+    position:sticky;
+
+    top:0;
+
+    z-index:999;
+}
+
+.brand-name{
+
+    font-size:24px;
+
+    font-weight:700;
+
+    color:#111;
+}
+
+.store-nav ul{
+
+    display:flex;
+
+    gap:40px;
+
+    list-style:none;
+}
+
+.store-nav a{
+
+    text-decoration:none;
+
+    color:#111;
+
+    font-size:15px;
+}
+
+.store-nav a:hover{
+
+    color:#ff9900;
+}
+
+
+/* Hero */
+
+.hero{
+
+    max-width:1500px;
+
+    margin:auto;
+}
+
+.hero img{
+
+    width:100%;
+
+    display:block;
+}
+
+
+/* Content Sections */
+
+.banner{
+
+    max-width:1500px;
+
+    margin:auto;
+
+    padding-top:20px;
+}
+
+.banner img{
+
+    width:100%;
+
+    display:block;
+}
+
+
+/* Mobile */
+
+@media(max-width:768px){
+
+.store-nav{
+
+    flex-direction:column;
+
+    height:auto;
+
+    padding:15px;
+}
+
+.store-nav ul{
+
+    margin-top:15px;
+
+    gap:20px;
+
+    flex-wrap:wrap;
+
+    justify-content:center;
+}
+
+}
